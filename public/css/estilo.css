@@ -1,0 +1,700 @@
+* {
+	
+	margin:0;
+	padding: 0;
+}
+.signarInput{
+	outline: none;
+	margin-top: 20px;
+	background: #f5f5f5;
+	border:none;
+	width:200px;
+	height: 250px;
+	margin-bottom: -40px;
+}
+table {
+  margin-top: 40px;
+  
+  border-collapse: collapse;
+  width: 100%;
+}
+h2 a{
+	color: #667788;
+}
+th, td {
+	
+  padding: 10px;
+  text-align: center;
+  border: 3px solid white;
+}
+th{
+	line-height: 20px;
+	
+	color:white;
+	background: #667788;
+	/*border: 4px solid white;*/
+	font-size: 16px;
+
+}
+td{
+
+	background: #f5f5f5;
+	color: #667788;
+}
+.tdDelete{
+	
+	background: transparent;
+	border-radius: 50px;
+}
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Inconsolata', monospace;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'Inconsolata', monospace;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ font-family: 'Inconsolata', monospace;
+}
+:-moz-placeholder { /* Firefox 18- */
+ font-family: 'Inconsolata', monospace;
+}
+.contenedor{
+	height: 100vh;
+	width:100%;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.divHome{
+	width:1000px;
+	text-align: justify;
+}
+.homeParrafo{
+	margin-top: 40px;
+	
+}
+
+.navegador{
+	position:fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 100%;
+	align-self: center;
+	margin:0px;
+	width: 250px;
+	background: #667788;
+}
+
+.usuarioNombre{
+
+    text-shadow: 2px 1px 1px#413E3E;
+
+	font-family: 'Ubuntu', sans-serif;
+	color:white;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	transition: 1s;
+}
+
+.menu{
+	font-family: 'Inconsolata', monospace;
+	text-align: right;
+	color:#D2D2D2;
+	font-size: 16px;
+	margin-top: 40px;
+	padding-right: 40px;
+	padding-left: 20px;
+	height: 80%;
+}
+
+
+
+.main{
+	padding: 0;
+	margin:0;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.barraArriba{
+	height: 70px;
+	background: white;
+	position:fixed;
+	margin-left:250px;
+	width: 90%;
+	display:flex;
+	border-bottom: 1px solid #D2D2D2;
+	flex-direction: row;
+
+}
+.titulo{
+	font-family: 'Ubuntu', sans-serif;
+	color:#667788;
+	font-size: 14px;
+	width:80%;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 18px;
+	margin: 0;
+	transition: 1s;
+}
+.menus{
+	display: none;
+}
+.usuario{
+
+	display: flex;
+	text-align: flex-end;
+	padding-top: 20px;
+	align-self: right;
+}
+.usuarioDos{
+	margin-left: 20px;
+}
+.tituloDiv{
+	background: #F9F9F9;
+	height: 1px;
+	width: 100%;
+}
+.contenido{
+	
+	margin:300px;
+	margin-top:80px;
+	font-family: 'Inconsolata', monospace;	
+
+
+
+}
+.layoutLogout{
+	color:#7C899F;
+	transition: .1s;
+	border:none;
+}
+.layoutLogout:hover{
+	transition: .1s;
+	color:#667788;
+}
+a{
+	border-bottom: 1px dotted white;
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color:#A3A7C6;
+}
+.navegadorMin{
+	display: none;
+}
+
+.explicacionSubir{
+	text-align: center;
+	color:white;
+	font-size: 14px;
+	width: 100%;
+	height:100px;
+	background: #667788;; 
+}
+.explicacionSubir p{
+	text-shadow: 1px 1px 1px#413E3E;
+	padding: 12px;
+}
+.formaSubir{
+	color: #4d5863;
+	background: #f5f5f5;
+	height: 200px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.contenidoSubir{
+
+margin-left:30%;
+width: 240px;
+margin-top:25px;
+
+
+}
+
+select{
+	font-family: 'Inconsolata', monospace;
+	color: #4d5863;
+	font-size: 16px;
+	border:none;
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.sub{
+	outline:none;
+	margin-top: 10px;
+}
+.subValEsp{
+	margin-top:7px !important;
+}
+.subVal{
+	color:#d20013;
+	margin-left: 10px;
+	margin-top: 3px;
+	font-size: 12px;
+}
+.archivoSonido{
+	transition: .2s;
+	padding: 5px;
+	cursor:pointer;
+	font-size: 16px;
+	font-family: 'Inconsolata', monospace;
+	padding-top:3px;
+	margin-top:30px;
+	border-radius: 5px;
+	color: #4d5863;
+	background: #dadbdc;
+	border-bottom: 2px solid white;
+}
+
+.archivoSonido:hover{
+	transition: .2s;
+	padding: 5px;
+	cursor:pointer;
+	font-size: 16px;
+	font-family: 'Inconsolata', monospace;
+	padding-top:3px;
+	margin-top:30px;
+	border-radius: 5px;
+	color: #4d5863;
+	background: #A4AFBA;
+	border-bottom: 2px solid white;
+}
+
+.tituloSonido{
+
+	font-family: 'Inconsolata', monospace;
+	color: #4d5863;
+	font-size: 16px;
+	border:none;
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	
+
+}
+
+.uploadBoton{
+	transition: .2s;
+	cursor:pointer;
+	font-size: 15px;
+	font-family: 'Inconsolata', monospace;
+	padding: 8px;
+	color: white;
+	background:  #667788;
+	border-top: 0px solid #dadbdc;
+	border-bottom: 3px solid #dadbdc;
+	border-radius: 10px;
+	margin-left: 40px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-top: 40px;
+	outline: none;
+}
+
+.uploadBoton:hover{
+	transition: .3s;
+	cursor:pointer;
+	font-size: 15px;
+	font-family: 'Inconsolata', monospace;
+	padding: 8px;
+	color: white;
+	background:  #8392A1;
+	border-top: 0px solid #dadbdc;
+	border-bottom: 3px solid #dadbdc;
+	border-radius: 10px;
+	margin-left: 40px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-top: 40px;
+}
+
+/*/////////////////////*/
+/*landing*/
+/*/////////////////////*/
+
+.landingBody{
+
+	background: #f5f5f5;
+}
+
+
+.landingContenido{
+
+	margin-top:50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+.landingContenidoLogin{
+
+	margin-top:50px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.landingRegistro{
+	/*display:none;*/
+	width:230px;
+	height: 350px;
+	background: #667788;
+	margin-bottom: 20px;
+}
+
+.landingExplicacion{
+	/*display:none;*/
+	width:210px;
+	height: 280px;
+	background: white;
+}
+
+.landingTitulo{
+	
+	margin-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px dotted #ececec;
+	color: #667788;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.landingInicioForm{
+	
+	opacity:1;
+	margin:50px;
+	background: #667788;
+	width:250px;
+	height:250px;
+	padding-top: 
+}
+
+.landingTexto{
+	font-family: 'Inconsolata', monospace;
+	font-size: 14px;
+	color:#667788;
+	padding: 15px;
+	text-align: center;
+}
+.landingRegistroTitulo{
+	margin-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px solid #8d8f9a;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.landingInputs{
+	outline:none;
+	font-family: 'Inconsolata', monospace;
+	font-size: 15px;
+	color:white;
+	width: 190px;
+	margin-top:5px;
+	margin-left:5px;
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid white
+}
+
+.landingInputs::placeholder{
+	color:white;
+	font-size: 12px;
+}
+
+.landingNombre{
+	margin-top:60px;
+}
+.landingInicioBot{
+	text-align: center;
+}
+.landingRegistroBot{
+	text-align: center;
+}
+.landingInicioBot button{
+	margin-top: 30px;
+	cursor:pointer;
+	font-size: 14px;
+	font-family: 'Inconsolata', monospace;
+	padding: 8px;
+	color: white;
+	background:  #667788;
+	border-top: 0px solid #dadbdc;
+	border-bottom: 3px solid #dadbdc;
+	border-radius: 10px;
+	transition: .2s;
+	outline: none;
+}
+
+.landingInicioBot button:hover{
+	transition: .1s;
+	margin-top: 30px;
+	cursor:pointer;
+	font-size: 14px;
+	font-family: 'Inconsolata', monospace;
+	padding: 8px;
+	color: white;
+	background:  #8DA5BC;
+	border-top: 0px solid #dadbdc;
+	border-bottom: 3px solid #dadbdc;
+	border-radius: 10px;
+	outline: none;
+}
+.landingInicioBot button:active{
+	outline: none;
+}
+.landingAInicio{
+	border: none;
+	color:white;
+	text-decoration: none;
+}
+
+.landingAInicio:visited {
+	color:white;
+	border:none;
+	text-decoration: none;
+}
+.landingAInicio:hover{
+	transition: .2s;
+	border:none;
+	color:  #667788;
+	text-decoration: none;
+}
+.landingAInicio:active{
+	color:white;
+	border:none;
+	text-decoration: none;
+}
+.landingRegistroBot button{
+	outline: none;
+	transition: .2s;
+	margin-top: 30px;
+	cursor:pointer;
+	font-size: 14px;
+	font-family: 'Inconsolata', monospace;
+	padding: 8px;
+	color: #667788;
+	background: white;
+	border-top: 0px solid #dadbdc;
+	border-bottom: 3px solid #dadbdc;
+	border-radius: 10px;
+}
+
+.landingRegistroBot button:hover{
+	transition: .3s;
+	margin-top: 30px;
+	cursor:pointer;
+	font-size: 14px;
+	font-family: 'Inconsolata', monospace;
+	padding: 8px;
+	color: white;
+	background: #8DA5BC;
+	border-top: 0px solid #dadbdc;
+	border-bottom: 3px solid #dadbdc;
+	border-radius: 10px;
+}
+
+
+.landingTextVal{
+	font-family: 'Inconsolata', monospace;
+	color:#ffa9a9;
+	font-size: 13px;
+}
+.landingFormulario{
+	text-align: center;
+}
+
+.landingInicioDiv{
+	text-align: center;
+	margin-top: 50px;
+}
+.landingRegistroLogin{
+	vertical-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size: 13px;
+
+}
+
+///Permiso Blade//
+.permisoP{
+	color:red;
+
+}
+
+@media screen and (max-width: 1400px){
+	.divHome{
+		width: 800px;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.divHome{
+		width: 500px;
+	}
+	.titulo{
+		width: 70%;
+		transition: 1s;
+	}
+}
+
+@media screen and (max-width: 850px){
+	.divHome{
+		width: 350px;
+	}
+	.titulo{
+		width: 60%;
+		transition: 1s;
+	}
+}
+
+
+
+@media screen and (max-width: 670px){
+	.divHome{
+		width: 500px;
+	}
+	.menus{
+		margin-left: 20px;
+		margin-right: 20px;
+		display: flex;
+		font-size: 12px;
+		padding-top: 20px;
+		color:#667788;
+		transition: .5s;
+	}
+
+	.menus:hover{
+	color: #444444;
+	cursor: pointer;
+	transition: .5s;
+	}
+	
+	.navegador{
+	display: none;
+	}
+	.barraArriba{
+		margin-left: 0px;
+		height:60px;
+	}
+	.contenido{
+		font-size: 14px;
+		margin-left: 20px;
+	}
+	.titulo{
+		width:60%;
+		font-size: 10px;
+	}
+	.usuario{
+		display:none;
+		padding-top: 20px;
+	}
+	.navegadorMin{
+	opacity: .95;
+	position:fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 100%;
+	align-self: center;
+	margin:0px;
+	width: 0px;
+	background: #667788;
+	margin-top: 60px;	
+}
+	.menuMin{
+		
+		font-family: 'Inconsolata', monospace;
+		display: none;
+		opacity: 0;
+		padding-left: 10%;
+		margin-top:10px;
+		
+	}
+/*	.menuMin:hover{
+		color:black;
+		cursor: pointer;
+	}*/
+	/*.aMenu{
+		border-bottom: 1px dotted white;
+		color:white;
+		margin-top: 10px;
+	}
+	.aMenu:hover{
+		color:white!important;
+	}
+	.aMenu:active{
+		color:white;
+	}
+
+	*/
+
+
+	.usuarioNombre{
+		padding-left: 8px;
+		padding-top: 20px;
+		padding-bottom: 0;
+		font-size: 15px;
+		transition: 1s;
+	}
+	.usuarioUno{
+		font-size: 12px;
+	}
+	a{
+		margin-top:50px;
+	}
+}
+@media screen and (max-width: 550px){
+	.divHome{
+		width: 350px;
+	}
+	.titulo{
+		width: 60%;
+		transition: 1s;
+	}
+}
+@media screen and (max-width: 380px){
+	.signarInput{
+	margin-left: 30px;
+	}
+	.contenido{
+		text-align: center;
+		font-size: 14px;
+		margin-left: 8px;
+	}
+
+	th, td {
+		padding: 2px;
+  		text-align: center;
+  		border: 3px solid white;
+	}
+
+	.divHome{
+		width: 200px;
+	}
+	
+	.contenidoSubir{
+		margin:0px;
+	}
+
+}
